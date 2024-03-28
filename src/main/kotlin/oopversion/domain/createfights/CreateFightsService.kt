@@ -1,10 +1,10 @@
-package oopversion.domain
+package oopversion.domain.createfights
 
 import oopversion.domain.driven.AllFights
-import oopversion.domain.models.Fight
-import oopversion.domain.models.FightLog
-import oopversion.domain.models.Fighter
-import oopversion.domain.models.LineType
+import oopversion.domain.createfights.models.Fight
+import oopversion.domain.createfights.models.FightLog
+import oopversion.domain.createfights.models.Fighter
+import oopversion.domain.createfights.models.LineType
 import java.io.File
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
@@ -80,7 +80,7 @@ fun createFights(allFights: AllFights, inputFile: File) {
 private fun fetchFightId(line: String): Fight {
     val fightIdRegex = Regex("id\\s(\\d+)\\s+has")
     val fightIdMatch = fightIdRegex.find(line)
-    val fightId = fightIdMatch?.groupValues?.get(1)?.toInt()
+    val fightId = fightIdMatch?.groupValues?.get(1)?.toLong()
 
     return Fight(id = fightId!!, fighters = mutableSetOf(), fightLogs = mutableListOf())
 }
