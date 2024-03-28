@@ -4,6 +4,7 @@ data class CompleteFighter(
     val id: String,
     val name: String,
     val fightStatistics: FightStatistics,
+    val isAIControlled: Boolean,
     val summons: MutableSet<Summons>,
     var takeTurn: Boolean = false
 ) {

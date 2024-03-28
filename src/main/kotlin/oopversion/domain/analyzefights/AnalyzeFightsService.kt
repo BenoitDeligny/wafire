@@ -62,10 +62,9 @@ fun analyzeFights(allFights: AllFights) {
 
                 log.body.contains(damagesRegex) -> {
                     val damages = log.body.substringAfterLast("-").trim().substringBefore(" PV").toIntOrNull() ?: 0
-                    if (areNotSelfDamages(log, analyzedFight)) {
+                    if (areNotSelfDamages(log, analyzedFight) && areNotFriendlyFireDamages(log, analyzedFight)) {
                         actualFighter(analyzedFight.completeFighters).addDamages(damages)
                     }
-                    // TODO: do not add friendly fire damages
                     // TODO: add fightStat to summons ?
                 }
 
@@ -92,6 +91,7 @@ private fun Fighter.toCompleteFighter() = CompleteFighter(
         shields = 0,
         states = AppliedStates(mutableSetOf())
     ),
+    isAIControlled = isAIControlled,
     summons = mutableSetOf()
 )
 
@@ -100,7 +100,15 @@ private fun stopPreviousFighterTurn(completeFighters: MutableSet<CompleteFighter
 }
 
 private fun actualFighter(completeFighters: MutableSet<CompleteFighter>) = completeFighters.find { it.takeTurn }!!
-
 private fun areNotSelfDamages(log: FightLog, analyzedFight: AnalyzedFight): Boolean {
-    return log.body.substringAfter("[Information (jeu)] ").substringBefore(": -") != actualFighter(analyzedFight.completeFighters).name
+    return log.body.substringAfter("[Information (jeu)] ")
+        .substringBefore(": -") != actualFighter(analyzedFight.completeFighters).name
+}
+
+private fun areNotFriendlyFireDamages(log: FightLog, analyzedFight: AnalyzedFight): Boolean {
+    val fighterName = log.body.substringAfter("[Information (jeu)] ").substringBefore(": -")
+
+    return analyzedFight.completeFighters
+        .filter { it.isAIControlled }
+        .any { it.name != fighterName }
 }
