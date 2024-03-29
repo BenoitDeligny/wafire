@@ -16785,3 +16785,181 @@ DEBUG 17:01:17,119 [AWT-EventQueue-0] (cdk:1091) - PERSONAL_SPACE_ENTER_RESULT_M
  INFO 17:01:52,862 [Net-Cnx-pandora.platforms.wakfu.com:5556>0] (aFz:32) - [id: 0x8eeb337b, L:/192.168.1.67:50121 ! R:pandora.platforms.wakfu.com/34.247.99.156:5556] Channel inActive
  INFO 17:01:52,863 [Net-Cnx-pandora.platforms.wakfu.com:5556>0] (cbn:45) - Connexion avec le serveur perdue ChannelHandlerContext(aZm#0, [id: 0x8eeb337b, L:/192.168.1.67:50121 ! R:pandora.platforms.wakfu.com/34.247.99.156:5556])
  INFO 20:46:12,987 [main] (aZu:387) - Chargement de la configuration depuis le fichier : 'C:\Users\Benoi\AppData\Roaming\zaap\gamesLogs\wakfu/config'
+ INFO 22:36:58,644 [AWT-EventQueue-0] (bbL:46) - CREATION DU COMBAT
+ INFO 22:36:58,667 [AWT-EventQueue-0] (eyo:1364) - [_FL_] fightId=1648056527 Cwalbator breed : 4749 [-1811995159912250] isControlledByAI=true obstacleId : -1 join the fight at {Point3 : (133, -21, -60)}
+ INFO 22:36:58,671 [AWT-EventQueue-0] (eyo:1364) - [_FL_] fightId=1648056527 Cwalbator breed : 4749 [-1811995159912249] isControlledByAI=true obstacleId : -1 join the fight at {Point3 : (130, -22, -60)}
+ INFO 22:36:58,688 [AWT-EventQueue-0] (eyo:1364) - [_FL_] fightId=1648056527 Jean Jack Premz breed : 11 [10149115] isControlledByAI=false obstacleId : -1 join the fight at {Point3 : (134, -21, -60)}
+ INFO 22:36:58,801 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Votre combat est verrouillé, ce qui empêche d'autres joueurs de vous rejoindre.
+ WARN 22:36:59,428 [AWT-EventQueue-0] (bbo:190) - Unable to find a valid RunningEffectManager to apply effect d'id -5
+ WARN 22:36:59,428 [AWT-EventQueue-0] (bvL:50) - Pas de cible sur laquelle appliquer les HMI pour l'effet 310
+ WARN 22:36:59,428 [AWT-EventQueue-0] (bbo:190) - Unable to find a valid RunningEffectManager to apply effect d'id 252845
+ WARN 22:36:59,429 [AWT-EventQueue-0] (bbo:190) - Unable to find a valid RunningEffectManager to apply effect d'id 329136
+ WARN 22:36:59,429 [AWT-EventQueue-0] (bbo:190) - Unable to find a valid RunningEffectManager to apply effect d'id 329137
+ WARN 22:36:59,431 [AWT-EventQueue-0] (aZw:701) - acteur (10149116) se déplaçant trop loin (problème avec PartitionIntersectorCache?) camera={Point3 : (134, -21, -60)} acteurPos={Point3 : (0, 0, 0)}
+ INFO 22:36:59,432 [AWT-EventQueue-0] (eyo:1364) - [_FL_] fightId=1648056527 Jean Jack Deuz breed : 2 [10149116] isControlledByAI=false obstacleId : -1 join the fight at {Point3 : (0, 0, 0)}
+ WARN 22:36:59,457 [AWT-EventQueue-0] (bbo:190) - Unable to find a valid RunningEffectManager to apply effect d'id -5
+ WARN 22:36:59,457 [AWT-EventQueue-0] (bvL:50) - Pas de cible sur laquelle appliquer les HMI pour l'effet 310
+ WARN 22:36:59,457 [AWT-EventQueue-0] (bbo:190) - Unable to find a valid RunningEffectManager to apply effect d'id 252845
+ WARN 22:36:59,458 [AWT-EventQueue-0] (bbo:190) - Unable to find a valid RunningEffectManager to apply effect d'id 329136
+ WARN 22:36:59,458 [AWT-EventQueue-0] (bbo:190) - Unable to find a valid RunningEffectManager to apply effect d'id 329137
+ WARN 22:36:59,458 [AWT-EventQueue-0] (aZw:701) - acteur (10303110) se déplaçant trop loin (problème avec PartitionIntersectorCache?) camera={Point3 : (134, -21, -60)} acteurPos={Point3 : (0, 0, 0)}
+ INFO 22:36:59,458 [AWT-EventQueue-0] (eyo:1364) - [_FL_] fightId=1648056527 Jeanne Jackeline Qwartz breed : 10 [10303110] isControlledByAI=false obstacleId : -1 join the fight at {Point3 : (0, 0, 0)}
+ INFO 22:37:09,845 [AWT-EventQueue-0] (ceE:51) - Unserializing effects for fighter 10149116, byte size : 12912
+ INFO 22:37:09,862 [AWT-EventQueue-0] (ceE:51) - Unserializing effects for fighter 10149115, byte size : 14761
+ INFO 22:37:09,938 [AWT-EventQueue-0] (ceE:51) - Unserializing effects for fighter 10303110, byte size : 12815
+ INFO 22:37:11,595 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator lance le sort Pince Sans Rire
+ INFO 22:37:12,594 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz: -63 PV (Terre)
+ INFO 22:37:12,597 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz: -1 Portée (Désorienté)
+ INFO 22:37:12,598 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator lance le sort Pince Sans Rire
+ INFO 22:37:13,546 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: -56 PV (Terre)
+ INFO 22:37:13,548 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: -1 Portée (Désorienté)
+ INFO 22:37:17,782 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] 30 secondes reportées pour le tour suivant.
+ INFO 22:37:17,784 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz: 0 PW (Invocateur animal)
+ INFO 22:37:17,785 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz: 3 PA (Invocateur solitaire)
+ INFO 22:37:17,786 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Le challenge "Séparation" a échoué.
+ INFO 22:37:19,530 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: 10% Coup critique
+ INFO 22:37:22,046 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] 30 secondes reportées pour le tour suivant.
+ INFO 22:37:25,311 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz lance le sort Graine
+ INFO 22:37:25,961 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz: Pose le Glyphe Graine de Sadida
+ WARN 22:37:25,966 [AWT-EventQueue-0] (asX:743) - Impossible de récupérer la duree de l'animation 7_AnimStatique dans jar:file:./contents/animations/interactives/interactives.jar!/10181 : la definition n'est pas chargee
+ INFO 22:37:26,495 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz lance le sort Graine
+ INFO 22:37:27,161 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz: Pose le Glyphe Graine de Sadida
+ INFO 22:37:27,263 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz lance le sort Graine
+ INFO 22:37:27,911 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz: Pose le Glyphe Graine de Sadida
+ INFO 22:37:31,425 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz lance le sort Bourrasque
+ INFO 22:37:32,496 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz: Invoque un(e) La Folle
+ INFO 22:37:32,496 [AWT-EventQueue-0] (euW:125) - Instanciation d'une nouvelle invocation avec un id de -1811995157977196
+ INFO 22:37:32,497 [AWT-EventQueue-0] (eyo:1364) - [_FL_] fightId=1648056527 La Folle breed : 3750 [-1811995157977196] isControlledByAI=true obstacleId : 5 join the fight at {Point3 : (135, -18, -60)}
+ INFO 22:37:32,517 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Folle: Venteuse (Niv.1)
+ INFO 22:37:32,712 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Folle: 20% Dommages infligés (Bourrasque)
+ INFO 22:37:33,161 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: est poussé de 1 case
+ INFO 22:37:38,162 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz lance le sort Gadoule
+ INFO 22:37:38,812 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz: Invoque un(e) La Bloqueuse
+ INFO 22:37:38,812 [AWT-EventQueue-0] (euW:125) - Instanciation d'une nouvelle invocation avec un id de -1811995157977151
+ INFO 22:37:38,812 [AWT-EventQueue-0] (eyo:1364) - [_FL_] fightId=1648056527 La Bloqueuse breed : 3751 [-1811995157977151] isControlledByAI=true obstacleId : 6 join the fight at {Point3 : (134, -16, -60)}
+ INFO 22:37:38,829 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: Boueuse (Niv.1)
+ INFO 22:37:38,830 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: +0 PV (Eau)
+ INFO 22:37:49,398 [AWT-EventQueue-0] (bii:555) - On ne dispose pas d'information sur le groupe du NPC id=-1811995157977196 : étrange
+ INFO 22:37:50,478 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz lance le sort Vent Empoisonné (Critiques)
+ INFO 22:37:51,577 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Intoxiqué (Niv.11)
+ INFO 22:37:51,578 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -20% Dommages infligés
+ INFO 22:37:51,578 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Intoxiqué (Niv.11)
+ INFO 22:37:51,579 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -20% Dommages infligés
+ INFO 22:37:56,812 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] 25 secondes reportées pour le tour suivant.
+ INFO 22:37:56,928 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] [Jeanne Jackeline Qwartz] Graine de Sadida: Engrainé (+2 Niv.) (Graine de Sadida)
+ INFO 22:37:56,930 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz: 1 PW (Invocateur végétal)
+ INFO 22:38:00,646 [AWT-EventQueue-0] (bii:555) - On ne dispose pas d'information sur le groupe du NPC id=-1811995157977196 : étrange
+ INFO 22:38:11,090 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Toxines (+8 Niv.)
+ INFO 22:38:11,092 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: Bloqueuse engrainée (+2 Niv.) (Croissance accélérée)
+ INFO 22:38:11,093 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: 65 Tacle (Bloqueuse engrainée)
+ INFO 22:38:11,094 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: 60 Résistance Élémentaire (Bloqueuse engrainée)
+ INFO 22:38:20,477 [AWT-EventQueue-0] (bii:555) - On ne dispose pas d'information sur le groupe du NPC id=-1811995157977151 : étrange
+ INFO 22:38:29,495 [AWT-EventQueue-0] (bii:555) - On ne dispose pas d'information sur le groupe du NPC id=-1811995157977196 : étrange
+ INFO 22:38:30,545 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Folle lance le sort Agacement (Critiques)
+ INFO 22:38:31,863 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Toxines (+16 Niv.)
+ INFO 22:38:31,874 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Aveuglé (+1 Niv.) (Agacement)
+ INFO 22:38:31,875 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -1 Portée (Aveuglé)
+ INFO 22:38:31,877 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -42 PV (Air) (Intoxiqué)
+ INFO 22:38:31,881 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: -0 PM (Agacement)
+ INFO 22:38:31,882 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: Aveuglé (+1 Niv.) (Agacement)
+ INFO 22:38:31,883 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: -1 Portée (Aveuglé)
+ INFO 22:38:32,077 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Folle: Folle engrainée (+2 Niv.) (Croissance accélérée)
+ INFO 22:38:32,082 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -78 PV (Lumière) (Eau) (Tétatoxine)
+ INFO 22:38:32,082 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: n'est plus sous l'emprise de 'Toxines'
+ INFO 22:38:32,084 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -3 PA
+ INFO 22:38:32,084 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -3 PM
+ERROR 22:38:32,085 [AWT-EventQueue-0] (ewd:825) - Area inexistante -1811995157976692 sur le contexte de type 1 for fight 1648056527
+ INFO 22:38:33,376 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator lance le sort Pince Sans Rire
+ INFO 22:38:34,361 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: -44 PV (Terre)
+ INFO 22:38:34,374 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: Berserker - PW (Niv.1)
+ INFO 22:38:34,376 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: -1 Portée (Désorienté)
+ INFO 22:38:34,377 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator lance le sort Tas de Moules
+ WARN 22:38:36,643 [AWT-EventQueue-0] (bvL:50) - Pas de cible sur laquelle appliquer les HMI pour l'effet 400
+ INFO 22:38:37,510 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Pose un(e) Tas de Moules
+ WARN 22:38:37,513 [AWT-EventQueue-0] (asX:743) - Impossible de récupérer la duree de l'animation 3_AnimStatique dans jar:file:./contents/animations/interactives/interactives.jar!/10179 : la definition n'est pas chargee
+ INFO 22:38:38,712 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] 30 secondes reportées pour le tour suivant.
+ INFO 22:38:38,828 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz: 0 PW (Invocateur animal)
+ INFO 22:38:38,830 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz: 3 PA (Invocateur solitaire)
+ INFO 22:38:39,376 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator lance le sort Pince Sans Rire
+ERROR 22:38:39,909 [AWT-EventQueue-0] (ewd:825) - Area inexistante -1811995157976484 sur le contexte de type 1 for fight 1648056527
+ INFO 22:38:40,345 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: -36 PV (Terre)
+ INFO 22:38:40,346 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: -1 Portée (Désorienté)
+ INFO 22:38:41,860 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator lance le sort Pince Sans Rire
+ INFO 22:38:42,844 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz: -57 PV (Terre)
+ INFO 22:38:42,845 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz: -1 Portée (Désorienté)
+ INFO 22:38:42,846 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator lance le sort Tas de Moules
+ WARN 22:38:45,126 [AWT-EventQueue-0] (bvL:50) - Pas de cible sur laquelle appliquer les HMI pour l'effet 400
+ INFO 22:38:45,993 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Pose un(e) Tas de Moules
+ INFO 22:38:46,112 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: 0 PW (Berserker)
+ INFO 22:38:46,114 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: 10% Coup critique
+ INFO 22:38:47,312 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] 30 secondes reportées pour le tour suivant.
+ INFO 22:38:52,543 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz lance le sort Ronces Multiples
+ INFO 22:38:53,412 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz: -1 PM
+ INFO 22:38:53,414 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: -1 PM
+ INFO 22:38:53,415 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Toxines (+8 Niv.)
+ INFO 22:38:53,416 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Toxines (+16 Niv.)
+ INFO 22:38:53,417 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz: -1 PM
+ INFO 22:38:53,418 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Folle: -1 PM
+ INFO 22:38:54,493 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz: -170 PV (Terre)
+ INFO 22:38:54,610 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: -165 PV (Terre)
+ INFO 22:38:54,709 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -221 PV (Terre)
+ INFO 22:38:54,827 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -221 PV (Terre)
+ INFO 22:38:55,044 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Folle: -176 PV (Terre)
+ INFO 22:38:55,044 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz: -83 PV (Terre)
+ INFO 22:39:01,593 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz lance le sort Herbes Folles
+ INFO 22:39:02,243 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Toxines (+16 Niv.)
+ INFO 22:39:03,543 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -79 PV (Terre)
+ INFO 22:39:08,578 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] 30 secondes reportées pour le tour suivant.
+ INFO 22:39:08,676 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] [Jeanne Jackeline Qwartz] Graine de Sadida: Engrainé (+4 Niv.) (Graine de Sadida)
+ INFO 22:39:08,678 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz: 1 PW (Invocateur végétal)
+ INFO 22:39:15,111 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Toxines (+24 Niv.)
+ INFO 22:39:15,112 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: Bloqueuse engrainée (+4 Niv.) (Croissance accélérée)
+ INFO 22:39:15,112 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: 130 Tacle (Bloqueuse engrainée)
+ INFO 22:39:15,113 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: 120 Résistance Élémentaire (Bloqueuse engrainée)
+ INFO 22:39:16,961 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Folle lance le sort Agacement (Critiques)
+ INFO 22:39:18,277 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Toxines (+24 Niv.)
+ INFO 22:39:18,277 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Aveuglé (+1 Niv.) (Agacement)
+ INFO 22:39:18,278 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -1 Portée (Aveuglé)
+ INFO 22:39:18,279 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -42 PV (Air) (Intoxiqué)
+ INFO 22:39:18,280 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Folle lance le sort Agacement
+ INFO 22:39:19,578 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Toxines (+32 Niv.)
+ INFO 22:39:19,579 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: Aveuglé (+1 Niv.) (Agacement)
+ INFO 22:39:19,580 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -1 Portée (Aveuglé)
+ INFO 22:39:19,581 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -42 PV (Air) (Intoxiqué)
+ INFO 22:39:19,583 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: -1 PM (Agacement)
+ INFO 22:39:19,583 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: Aveuglé (+1 Niv.) (Agacement)
+ INFO 22:39:19,584 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Bloqueuse: -1 Portée (Aveuglé)
+ INFO 22:39:28,277 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] La Folle: Folle engrainée (+4 Niv.) (Croissance accélérée)
+ INFO 22:39:28,280 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -156 PV (Lumière) (Eau) (Tétatoxine)
+ INFO 22:39:30,025 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator est hors-combat !
+ INFO 22:39:31,427 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] 30 secondes reportées pour le tour suivant.
+ INFO 22:39:31,542 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz: 0 PW (Invocateur animal)
+ INFO 22:39:31,543 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz: 3 PA (Invocateur solitaire)
+ INFO 22:39:31,545 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -116 PV (Lumière) (Eau) (Tétatoxine)
+ INFO 22:39:31,545 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: n'est plus sous l'emprise de 'Toxines'
+ INFO 22:39:32,843 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator lance le sort Pince Sans Rire
+ INFO 22:39:33,826 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: -47 PV (Terre)
+ INFO 22:39:33,829 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: Berserker - PW (Niv.1)
+ INFO 22:39:33,832 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: -1 Portée (Désorienté)
+ INFO 22:39:35,142 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator lance le sort Pinçouille
+ INFO 22:39:35,677 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz: -69 PV (Eau)
+ INFO 22:39:35,678 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: -77 PV (Eau)
+ INFO 22:39:35,680 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz: -1 PM
+ INFO 22:39:35,681 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: -0 PM
+ INFO 22:39:35,794 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: 0 PW (Berserker)
+ INFO 22:39:35,795 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: 10% Coup critique
+ INFO 22:39:37,526 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz lance le sort Pied rocheux
+ INFO 22:39:37,539 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Vous avez ramassé 2x Oeil de Cwabe.
+ INFO 22:39:37,541 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Vous avez ramassé 1x Oeil de Cwabe.
+ INFO 22:39:37,542 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Vous avez ramassé 2x Oeil de Cwabe.
+ INFO 22:39:37,542 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Vous avez ramassé 1x Oeil de Cwabe.
+ INFO 22:39:37,645 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Vous venez de faire gagner 2 points à votre guilde !
+ INFO 22:39:38,076 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Cwalbator: -164 PV (Terre)
+ INFO 22:39:39,060 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: -24 PV (Neutre) (Fracasseur)
+ INFO 22:39:39,076 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz: 67 Armure
+ INFO 22:39:39,078 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Vous avez gagné 18 kamas.
+ INFO 22:39:39,078 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Vous avez gagné 18 kamas.
+ INFO 22:39:39,079 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Deuz : +450 143 points d'XP.  Prochain niveau dans : 137 028 154.
+ INFO 22:39:39,079 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jean Jack Premz : +450 143 points d'XP.  Prochain niveau dans : 42 441 931.
+ INFO 22:39:39,080 [AWT-EventQueue-0] (aTQ:174) - [Information (jeu)] Jeanne Jackeline Qwartz : +1 274 365 points d'XP.  Prochain niveau dans : 76 514 620.
+ INFO 22:39:39,083 [AWT-EventQueue-0] (baH:91) - [FIGHT] End fight with id 1648056527

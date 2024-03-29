@@ -5,24 +5,6 @@ import oopversion.domain.createfights.models.FightLog
 import oopversion.domain.createfights.models.Fighter
 import oopversion.domain.driven.AllFights
 
-// Goal here is to read the logs file and register the right lines in a FIGHT
-// RULES
-//
-
-// Check behaviour on damages when armor (0 in logs or real damages ?) ->
-
-// Ligne dégats avec état -XX PV (ELEMENT) (NOM DE L'ETAT)
-// Total damages includes self-damages -> si contient damageRegex && fighterNameRegex = currentFighter
-// Friendly fire ? -> check les noms des perso (si distinction faite entre player et mob)
-// How to handle poison/async damages-heal ->
-// check after "lance le sort" ->  pseudo: ETAT (+XX Niv.)
-// attribuer ETAT au currentFighter
-// check quand damage-heal regex avec ETAT dans la ligne
-
-// bug on heals -> when sadida invoke tree and tree levelup -> heals : should not enter in calculation
-
-// TODO: implement class ?
-
 fun analyzeFights(allFights: AllFights) {
 
     val damagesRegex = Regex("""-(\d+)\sPV""")
@@ -62,15 +44,25 @@ fun analyzeFights(allFights: AllFights) {
 
                 log.body.contains(damagesRegex) -> {
                     val damages = log.body.substringAfterLast("-").trim().substringBefore(" PV").toIntOrNull() ?: 0
+
                     if (areNotSelfDamages(log, analyzedFight) && areNotFriendlyFireDamages(log, analyzedFight)) {
                         actualFighter(analyzedFight.completeFighters).addDamages(damages)
                     }
                     // TODO: add fightStat to summons ?
+
+                    // Check behaviour on damages when armor (0 in logs or real damages ?)
+
+                    // How to handle poison/async damages-heal -> create an ENUM that contains all states(could be non-damages ones like Friable or else)
+                    // check after "lance le sort" ->  pseudo: ETAT (+XX Niv.)
+                    // attribuer ETAT au currentFighter
+                    // check quand damage-heal regex avec ETAT dans la ligne
                 }
 
                 log.body.contains(healsRegex) -> {
                     val heals = log.body.substringAfterLast("+").trim().substringBefore(" PV").toIntOrNull() ?: 0
                     actualFighter(analyzedFight.completeFighters).addHeals(heals)
+
+                    // bug on heals -> when sadida invoke tree and tree levelup -> heals : should not enter in calculation
                 }
 
                 log.body.contains(shieldsRegex) -> {
