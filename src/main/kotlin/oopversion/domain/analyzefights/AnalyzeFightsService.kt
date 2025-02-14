@@ -49,6 +49,9 @@ fun analyzeFights(allFights: AllFights) {
                         actualFighter(analyzedFight.completeFighters).addDamages(damages)
                     }
                     // TODO: add fightStat to summons ?
+                    // TODO: Add damages received on each fighter (to check how steamer blocs are strong as absorbing)
+                    // TODO: Bug sur le clone du zobal pour shield -> no name
+                    // TODO: Bug clone zobal avec armure (ligne)
 
                     // Check behaviour on damages when armor (0 in logs or real damages ?)
 

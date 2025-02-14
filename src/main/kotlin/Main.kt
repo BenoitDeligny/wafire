@@ -71,15 +71,15 @@ fun main() {
             }
         } else if (inCombat && line.contains(damagesRegex)) {
             val damages = line.substringAfterLast("-").trim().substringBefore(" PV").toIntOrNull() ?: 0
-            fightersDamages[currentFighter] = fightersDamages.getOrDefault(currentFighter, 0) + (damages / 2)
+            fightersDamages[currentFighter] = fightersDamages.getOrDefault(currentFighter, 0) + (damages)
 
         } else if (inCombat && line.contains(healsRegex)) {
             val heals = line.substringAfterLast("+").trim().substringBefore(" PV").toIntOrNull() ?: 0
-            fightersHeals[currentFighter] = fightersHeals.getOrDefault(currentFighter, 0) + (heals / 2)
+            fightersHeals[currentFighter] = fightersHeals.getOrDefault(currentFighter, 0) + (heals)
 
         } else if (inCombat && line.contains(shieldsRegex)) {
             val shields = line.substringAfterLast(":").trim().substringBefore(" Armure").toIntOrNull() ?: 0
-            fightersShields[currentFighter] = fightersShields.getOrDefault(currentFighter, 0) + (shields / 2)
+            fightersShields[currentFighter] = fightersShields.getOrDefault(currentFighter, 0) + (shields)
 
         }
     }

@@ -63,7 +63,7 @@ fun createFights(allFights: AllFights, inputFile: File) {
                     currentFight.fighters.add(generateFighter(line))
                 }
 
-                if (line.contains("(aTQ:174)")) {
+                if (line.contains("(aTQ:174)") /*&& line.contains("[Information (jeu)]")*/) {
                     val currentFightLine = generateFightLine(line)
                     if (!currentFight.fightLogs.any { it.isAlmostEqual(currentFightLine) }) {
                         currentFight.fightLogs.add(currentFightLine)
@@ -106,7 +106,8 @@ private fun generateFightLine(line: String): FightLog {
 
     val typeRegex = Regex("(\\w{4})\\s")
     val timeRegex = Regex("\\d{2}:\\d{2}:\\d{2},\\d{3}")
-    val infoRegex = Regex("\\[(Information \\(jeu\\)|Messages d'erreur)]\\s*(.+)")
+    val infoRegex = Regex("\\[(Information \\(jeu\\)|Messages d'erreur)|[Proximité]|[Recrutement (FR)]]\\s*(.+)")
+//    |Messages d'erreur)|[Proximité]|[Recrutement (FR)]
 
     val typeMatch = typeRegex.find(line)
     val timeMatch = timeRegex.find(line)
